@@ -1,6 +1,29 @@
 {
   "users": [
-    { "id": 1, "name": "Tayfur" }
+    {
+      "id": 1,
+      "name": "Tayfur"
+    },
+    {
+      "name": "Jeff MacGyver",
+      "id": 2
+    },
+    {
+      "name": "Elaine Sawayn DDS",
+      "id": 3
+    },
+    {
+      "name": "Mr. Jeff Senger",
+      "id": 4
+    },
+    {
+      "name": "Dr. Ruby Moen",
+      "id": 5
+    },
+    {
+      "name": "Miss Randall Kautzer",
+      "id": 6
+    }
   ],
   "albums": [],
   "photos": []
