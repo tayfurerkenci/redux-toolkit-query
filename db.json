@@ -29,6 +29,12 @@
       "id": 10
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Licensed Concrete Fish",
+      "id": 1
+    }
+  ],
   "photos": []
 }
