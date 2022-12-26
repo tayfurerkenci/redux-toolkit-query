@@ -23,10 +23,6 @@
     {
       "name": "Ernestine Prosacco",
       "id": 9
-    },
-    {
-      "name": "Ethel Roob",
-      "id": 10
     }
   ],
   "albums": [
@@ -49,6 +45,21 @@
       "userId": 6,
       "title": "Recycled Soft Towels",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Incredible Cotton Bike",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "title": "Small Bronze Gloves",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "Small Soft Ball",
+      "id": 7
     }
   ],
   "photos": []
