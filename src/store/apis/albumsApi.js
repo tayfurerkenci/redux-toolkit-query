@@ -9,6 +9,9 @@ const albumsApi = createApi({
   endpoints(builder) {
     return {
       addAlbum: builder.mutation({
+        invalidatesTags: (result, error, user) => {
+          return [{ type: 'Album', id: user.id }];
+        },
         // query like query params
         query: (user) => {
           return {
@@ -22,6 +25,10 @@ const albumsApi = createApi({
         },
       }),
       fetchAlbums: builder.query({
+        // in the official docs arg instead of user
+        providesTags: (result, error, user) => {
+          return [{ type: 'Album', id: user.id }];
+        },
         query: (user) => {
           return {
             url: '/albums',
