@@ -58,9 +58,25 @@
     },
     {
       "userId": 1,
-      "title": "Small Soft Ball",
+      "title": "Gorgeous Wooden Ball",
       "id": 7
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2143",
+      "id": 1
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=57654",
+      "id": 2
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=12297",
+      "id": 3
+    }
+  ]
 }
